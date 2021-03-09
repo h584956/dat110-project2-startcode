@@ -26,7 +26,6 @@ public class Broker extends Stopable {
 	public void setMaxAccept(int n) {
 		this.stopable = true;
 		this.maxaccept = n;
-		
 	}
 	
 	@Override
